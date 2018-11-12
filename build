@@ -1,0 +1,3 @@
+#!/bin/bash
+
+stack install --flag xmobar:all_extensions --flag xmobar:with_xft
