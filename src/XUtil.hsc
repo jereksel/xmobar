@@ -85,7 +85,7 @@ initFont d s =
            fmap Xft $ initXftFont d s
 #else
            do
-               hPutStrLn stderr $ "Warning: Xmobar must be built with "
+               hPutStrLn stderr $ "Warning: Xmobar must be built with asdasd "
                    ++ "the with_xft flag to support font '" ++ s
                    ++ ".' Falling back on default."
                initFont d miscFixedFont

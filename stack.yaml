@@ -1,7 +1,12 @@
-resolver: lts-12.1
+flags:
+  xmobar:
+    with_weather: false
 packages:
 - .
 extra-deps:
-- iwlib-0.1.0
-- parsec-numbers-0.1.0
-- alsa-mixer-0.2.0.3
+ - HTTP-4000.3.12
+ - alsa-mixer-0.2.0.3
+ - iwlib-0.1.0
+ - libmpd-0.9.0.9
+ - network-2.7.0.2
+resolver: nightly-2018-10-04
